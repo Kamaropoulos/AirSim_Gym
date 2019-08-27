@@ -1,1 +1,1 @@
-from airsim_gym.envs.AirSimGym import AirSimMultirotor
+from airsim_gym.envs.AirSimGymMultirotor import AirSimMultirotor

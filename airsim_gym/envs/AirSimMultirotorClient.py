@@ -53,7 +53,7 @@ class AirSimMultirotorClient(MultirotorClient):
         while self.getPosition().z_val < -7.0:
             self.moveToZAsync(-6, 3)
             time.sleep(1)
-            print(self.getPosition().z_val, "and", x)
+            # print(self.getPosition().z_val, "and", x)
             x = x + 1
             if x > 10:
                 return True

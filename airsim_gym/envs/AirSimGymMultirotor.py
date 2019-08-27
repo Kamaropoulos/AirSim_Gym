@@ -141,7 +141,7 @@ class AirSimMultirotor(gym.Env):
         self.allLogs['track'] = [-2]
         self.allLogs['action'] = [1]
         
-        print("")
+        # print("")
         
         now = airgym.getPosition()
         track = airgym.goal_direction(self.goal, now)

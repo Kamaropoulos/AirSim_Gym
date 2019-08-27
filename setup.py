@@ -4,7 +4,7 @@ import os
 setup(
     name = "airsim_gym",
     version = "0.1.0",
-    packages = ['airsim_gym', 'airsim_gym.envs'],
+    packages = ['airsim_gym', 'airsim_gym.envs', 'airsim_gym.envs.AirSimGym'],
     author = "Konstantinos Kamaropoulos",
     author_email = "k@kamaropoulos.com",
     description = ("An OpenAI Gym environment for Microsoft's AirSim Multirotor simulator"),

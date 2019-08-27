@@ -11,5 +11,6 @@ setup(
     license = "MIT",
     keywords = "AirSim, OpenAI Gym, Gym, reinforcement learning, multirotor",
     url = "https://github.com/Kamaropoulos/AirSim_Gym",
+    download_url = 'https://github.com/Kamaropoulos/AirSim_Gym/archive/0.1.tar.gz',
     install_requires=['gym', 'opencv-python', 'eventlet', 'airsim', 'matplotlib', 'Pillow']
 )
